@@ -63,14 +63,15 @@ nav a {
 
 
 /* banner parent */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 100px 0 120px;
 }
+
 /* banner content */
-.banner-content{
+.banner-content {
     width: 400px;
 }
 
@@ -103,13 +104,110 @@ nav a {
     letter-spacing: 0%;
     text-align: left;
 }
-.header{
-    background-image:  url('/images/header_bg.png');
+
+.header {
+    background-image: url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 50%;
 }
 
-.banner-portfolio-img{
+.banner-portfolio-img {
     width: 400px;
+}
+
+main {
+    width: 850px;
+    margin: 0 auto;
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-parent {
+    background-color: rgb(226, 219, 212);
+    padding: 20px 0px;
+    margin: 50px auto;
+}
+
+.about-section {
+    width: 547px;
+    border: 1px solid grey;
+    margin: 50px auto;
+}
+
+.about-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 5px;
+}
+
+.subdescription {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+.subtitle {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+/* skills container style */
+.skills-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(209, 193, 193, 0.87);
+    /* border: 2px solid gainsboro; */
+}
+
+.skill-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    /* text-align: justify; */
 }
